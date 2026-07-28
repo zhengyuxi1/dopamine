@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS vibe_migration_test (
+    id INTEGER PRIMARY KEY,
+    note TEXT NOT NULL DEFAULT '',
+    created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

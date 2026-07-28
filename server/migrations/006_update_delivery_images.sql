@@ -1,0 +1,15 @@
+UPDATE products SET cover = 'https://dopamine-1313011159.cos.ap-guangzhou.myqcloud.com/dopamine/public/da7abedef7fc8591-1.jpg' WHERE title = '秘制红烧肉饭' AND delivery_shop_id = 1;
+UPDATE products SET cover = 'https://dopamine-1313011159.cos.ap-guangzhou.myqcloud.com/dopamine/public/44c5744cb48157fb-2.jpg' WHERE title = '宫保鸡丁饭' AND delivery_shop_id = 1;
+UPDATE products SET cover = 'https://dopamine-1313011159.cos.ap-guangzhou.myqcloud.com/dopamine/public/833471be12d8c642-3.jpg' WHERE title = '番茄炒蛋饭' AND delivery_shop_id = 1;
+UPDATE products SET cover = 'https://dopamine-1313011159.cos.ap-guangzhou.myqcloud.com/dopamine/public/574f8a78e4fc04f2-4.jpg' WHERE title = '鸡胸肉沙拉碗' AND delivery_shop_id = 2;
+UPDATE products SET cover = 'https://dopamine-1313011159.cos.ap-guangzhou.myqcloud.com/dopamine/public/317716319c36137b-5.jpg' WHERE title = '牛油果能量碗' AND delivery_shop_id = 2;
+UPDATE products SET cover = 'https://dopamine-1313011159.cos.ap-guangzhou.myqcloud.com/dopamine/public/06af82777bafc00e-6.jpg' WHERE title = '全麦三明治套餐' AND delivery_shop_id = 2;
+UPDATE products SET cover = 'https://dopamine-1313011159.cos.ap-guangzhou.myqcloud.com/dopamine/public/3d3ffddf92775af9-7.jpg' WHERE title = '兰州牛肉面' AND delivery_shop_id = 3;
+UPDATE products SET cover = 'https://dopamine-1313011159.cos.ap-guangzhou.myqcloud.com/dopamine/public/7e49ecc989bc54fc-8.jpg' WHERE title = '新疆大盘鸡拌面' AND delivery_shop_id = 3;
+UPDATE products SET cover = 'https://dopamine-1313011159.cos.ap-guangzhou.myqcloud.com/dopamine/public/d958f53869f2d9aa-9.jpg' WHERE title = '凉皮' AND delivery_shop_id = 3;
+UPDATE products SET cover = 'https://dopamine-1313011159.cos.ap-guangzhou.myqcloud.com/dopamine/public/9af57e13099cb063-10.jpg' WHERE title = '小炒肉套餐' AND delivery_shop_id = 4;
+UPDATE products SET cover = 'https://dopamine-1313011159.cos.ap-guangzhou.myqcloud.com/dopamine/public/07623b5bead6686a-11.jpg' WHERE title = '剁椒鱼头饭' AND delivery_shop_id = 4;
+UPDATE products SET cover = 'https://dopamine-1313011159.cos.ap-guangzhou.myqcloud.com/dopamine/public/50267d805e1193bc-14.jpg' WHERE title = '干锅花菜' AND delivery_shop_id = 4;
+UPDATE products SET cover = 'https://dopamine-1313011159.cos.ap-guangzhou.myqcloud.com/dopamine/public/2483c1626f86ee07-12.jpg' WHERE title = '招牌杨枝甘露' AND delivery_shop_id = 5;
+UPDATE products SET cover = 'https://dopamine-1313011159.cos.ap-guangzhou.myqcloud.com/dopamine/public/00081b73e6da6f51-13.jpg' WHERE title = '厚芋泥奶茶' AND delivery_shop_id = 5;
+UPDATE products SET cover = 'https://dopamine-1313011159.cos.ap-guangzhou.myqcloud.com/dopamine/public/dd0ff6fa3c2cdd2d-15.jpg' WHERE title = '柠檬绿茶' AND delivery_shop_id = 5;

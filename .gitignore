@@ -1,0 +1,14 @@
+node_modules
+*.log
+.DS_Store
+server/shop.db-journal
+server/shop.db-shm
+server/shop.db-wal
+server/shop.preview.*.db
+server/shop.preview.*.db-*
+client/dist
+client/node_modules
+server/node_modules
+.claude/
+.dopamine/
+logs/
