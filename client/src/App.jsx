@@ -24,6 +24,7 @@ import Messages from './pages/Messages.jsx';
 import MessagesChat from './pages/MessagesChat.jsx';
 import DeliveryAll from './pages/DeliveryAll.jsx';
 import DeliveryShop from './pages/DeliveryShop.jsx';
+import Farm from './pages/Farm.jsx';
 
 function Shell({ children }) {
   return <div className="app-shell">{children}<Tabbar /></div>;
@@ -63,6 +64,7 @@ export default function App() {
               <Route path="/delivery/all" element={<DeliveryAll />} />
               <Route path="/delivery/shop/:id" element={<DeliveryShop />} />
               <Route path="/settings" element={<Settings />} />
+              <Route path="/farm" element={<Farm />} />
             </Routes>
           </CartProvider>
         </UserProvider>

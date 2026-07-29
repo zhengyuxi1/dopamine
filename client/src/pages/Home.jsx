@@ -51,13 +51,13 @@ export default function Home() {
             placeholder="高质量短袖t恤" />
           <span className="cam">📷</span>
           <span className="go" onClick={doSearch}
-            style={{ background: 'var(--primary)', color: '#fff', padding: '4px 14px', borderRadius: 999, fontSize: 13, fontWeight: 600, cursor: 'pointer' }}>搜索</span>
+            style={{ background: '#1677ff', color: '#fff', padding: '4px 14px', borderRadius: 999, fontSize: 13, fontWeight: 600, cursor: 'pointer' }}>搜索</span>
         </div>
       </div>
 
       <div className="quick-icons no-scrollbar">
         {QUICK.map((q) => (
-          <div key={q.label} className="qi" onClick={q.label === '领券中心' ? () => navigate('/coupons') : q.label === '外卖' ? () => navigate('/delivery/all') : undefined}>
+          <div key={q.label} className="qi" onClick={q.label === '领券中心' ? () => navigate('/coupons') : q.label === '外卖' ? () => navigate('/delivery/all') : q.label === '阳光农场' ? () => navigate('/farm') : undefined}>
             <div className="ic" style={{ background: 'var(--primary-light)' }}>
               {q.ic}
               {q.badge && <span className="badge">{q.badge}</span>}
